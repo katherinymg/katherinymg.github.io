@@ -29,7 +29,7 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                   <a class="nav-link" href="#">Sobre mi</a>
                   <a class="nav-link" href="#portafolio-1">Portafolio</a>
-                  <a class="nav-link disabled" aria-disabled="true">Educacion</a>
+                  <a class="nav-link" href="#educacion-1">Educacion/Experiencia</a>
                 </div>
               </div>
             </div>
@@ -65,9 +65,9 @@
           </div>
 
           <div class="row gy-4 mb-5">
-          <div class="col-md-4"> <i class="fa-solid fa-shop fa-2x me-3"></i>LANDING PAGE</div>
-          <div class="col-md-4"> <i class="fa-solid fa-worm fa-2x me-3"></i>IGUANA PAGE</div>
-          <div class="col-md-4"> <i class="fa-solid fa-cart-shopping fa-2x me-3"></i>CUPPON PAGE</div>
+          <div class="col-md-4"> <i class="fa-solid fa-shop fa-2x me-3"></i>  <a href="#landingpage-1">LANDING PAGE</a></div>
+          <div class="col-md-4"> <i class="fa-solid fa-worm fa-2x me-3"></i> <a href="#iguanapage-1">IGUANA PAGE</a></div>
+          <div class="col-md-4"> <i class="fa-solid fa-cart-shopping fa-2x me-3"></i><a href="#cupponpage-1">CUPPON PAGE</a></div>
           </div>
 
           </div>
@@ -76,7 +76,8 @@
             <div class="row g-3">          
               <div class="col-md-5 ">
                 <div class="card-body">
-                  <h5 class="card-title">LANDING PAGE</h5>
+                  <a name="landingpage-1"></a>
+                  <h5 class="card-title #landingpage-1">LANDING PAGE</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-body-secondary">Leer más...</small></p>
                 </div>
@@ -95,7 +96,8 @@
               </div>
               <div class="col-md-5">
                 <div class="card-body">
-                  <h5 class="card-title">IGUANA PAGE</h5>
+                  <a name="iguanapage-1"></a>
+                  <h5 class="card-title #iguanapage-1">IGUANA PAGE</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-body-secondary">Leer más...</small></p>
                 </div>
@@ -108,7 +110,8 @@
             <div class="row g-0">          
               <div class="col-md-5">
                 <div class="card-body">
-                  <h5 class="card-title">CUPPON PAGE</h5>
+                  <a name="cupponpage-1"></a>
+                  <h5 class="card-title #cupponpage-1">CUPPON PAGE</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <p class="card-text"><small class="text-body-secondary">Leer más...</small></p>
                 </div>
@@ -122,32 +125,85 @@
         </main>
 
         <!--EDUCACION-->
-        <section>
+        <section class="d-flex justify-content-center my-3">
+          
+          <table class="table-dark-subtle table-borderless my-5">
+            <thead>
+              <tr><a name="educacion-1"></a>
+                <th scope="col"><h5>EDUCACION</h5></th>
+                              </tr>
+            </thead>
+            <tbody class= my-4>
+              <tr>
+                <th scope="row">Universidad Alberto Hurtado</th>
+                <td>Gestión de Informacion, Bibliotecología y archivística. 2017</td>
 
-
+              </tr>
+              <tr>
+                <th scope="row">Universidad Alberto Hurtado</th>
+                <td>Gestion de Personas en Organizaciones. 2022</td>
+              </tr>
+              <tr>
+                <th scope="row">Desafio Latam</th>
+                <td colspan="2">Full Stack Developer - Cursando</td>
+              </tr>
+            </tbody>
+          </table>
           
         </section>
+         <!--EXPERIENCIA-->
+         
+          <div><h5>EXPERIENCIA</h5></div> 
+          <section class= "d-flex justify-content-center gap-4 my-5" style="max-width: 100%;">
+          <div class="card bg-danger-subtle md-2">
+            <div class="card-body">
+              <h5 class="card-title">ReichJri Ingenieria</h5>
+              <p class="card-text">Encargada de Gestión documental. 2024-Presente</p>
+            </div>
+          </div>
+          
+          <div class="card text-center bg-danger-subtle md-2">
+            <div class="card-body">
+              <h5 class="card-title">Instituto Nacional de Derechos Humanos</h5>
+              <p class="card-text">Archivista. 2018-2023</p>
+            </div>
+          </div>
+          
+          <div class="card text-end bg-danger-subtle md-2">
+            <div class="card-body">
+              <h5 class="card-title">Camara Chilena de la Construcción</h5>
+              <p class="card-text">Encargada de Gestion documental. 2018</p>
+            </div>
+          </div>
+
+          
+         </section>
 
         <!--CONTACTAME-->
 
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
+<div class= "d-flex justify-content-center">
+  <div class="mb-3" style="max-width: 100%;" >
+    <label for="exampleFormControlInput1" class="form-label my-2">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div></div>
+  <div class= "d-flex justify-content-center">
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <button type="submit" class="btn my-3 btn-primary">Enviar</button>
+  </div>
+</div>
+      
 
 
-        <!--FOOTER-->
-        <footer class="text-center bg-danger-subtle mb-0">
-        <p>© 2024 Todos los derechos reservados.</p>
-        </footer>
+        
 
 
         <!--BOOTSTRAP JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--FOOTER-->
+        <footer class="text-center bg-danger-subtle pb-0">
+          <p>© 2024 Todos los derechos reservados.</p>
+          </footer>
     </body>
 </html>
