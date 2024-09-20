@@ -12,7 +12,7 @@
         <!--FUENTE DE LETRA-->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-        <title>Mi nueva página web</title>
+        <title>Mi web</title>
     </head>
 
     <body class=bg-dark-subtle>
@@ -48,7 +48,7 @@
                   <h5 class="card-title">SOBRE MI</h5>
                   <h3>Katherin Meza</h3>
                   <p class="card-text-end">Soy gestora de información, bibliotecaria y archivista. Además cuento con una maestría en Gestión de Personas. Actualmente estudiante de full stack developer</p>                  
-                  <button type="button" class="btn mt-3 btn-outline-dark">Contactame</button>
+                  <button type="button" class="btn mt-3 btn-outline-dark" > <a href="#contacto-1"> Contactame</a></button>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@
                 </div>
               </div>
               <div class="col-md-7">
-                <img src="./assets/img/cupponpage.png" class="img-fluid rounded-start" alt="...">
+                <img src="./assets/img/cupponpage.png" class="img-fluid rounded-start" alt="Desafio de cupones">
               </div>
             </div>
           </div>
@@ -125,35 +125,51 @@
         </main>
 
         <!--EDUCACION-->
-        <section class="d-flex justify-content-center my-3">
-          
-          <table class="table-dark-subtle table-borderless my-5">
-            <thead>
-              <tr><a name="educacion-1"></a>
-                <th scope="col"><h5>EDUCACION</h5></th>
-                              </tr>
-            </thead>
-            <tbody class= my-4>
-              <tr>
-                <th scope="row">Universidad Alberto Hurtado</th>
-                <td>Gestión de Informacion, Bibliotecología y archivística. 2017</td>
 
-              </tr>
-              <tr>
-                <th scope="row">Universidad Alberto Hurtado</th>
-                <td>Gestion de Personas en Organizaciones. 2022</td>
-              </tr>
-              <tr>
-                <th scope="row">Desafio Latam</th>
-                <td colspan="2">Full Stack Developer - Cursando</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </section>
+    <section>
+        <a name="educacion-1"></a>
+        <div class="justify-content-center">
+        <section id="resume" class="resume section contenedor-cv">
+          <div class="container my-5">
+            <div class="row">
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                
+  
+                <h3 class="resume-title color-cv1">EDUCACION</h3>
+                <br />
+                <br />
+                <div class="resume-item">
+                  <h4 class="color-cv2">
+                    Universidad Alberto Hurtado
+                  </h4>
+                  <h5>2017</h5>
+                                    <ul>
+                    <li>Gestion de información, bibliotecas y archivos</li>
+                  </ul>
+                </div>
+                <div class="resume-item">
+                  <h4 class="color-cv2">Universidad Alberto Hurtado</h4>
+                  <h5>2022</h5>
+                  <ul>
+                    <li>
+                     Magister en Gestion de Personas en Organizaciones
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="resume-item">
+                  <h4 class="color-cv2">Desafio Latam</h4>
+                  <h5>Cursando</h5>
+                  <ul>
+                    <li>Full Stack developer</li>
+                  </ul>
+                </div>
+              </div>
+              </section>
+
          <!--EXPERIENCIA-->
-         
-          <div><h5>EXPERIENCIA</h5></div> 
+         <a name="educacion-1"></a>
+          <div class="text-center"><h5>EXPERIENCIA</h5></div> 
           <section class= "d-flex justify-content-center gap-4 my-5" style="max-width: 100%;">
           <div class="card bg-danger-subtle md-2">
             <div class="card-body">
@@ -181,29 +197,85 @@
 
         <!--CONTACTAME-->
 
-<div class= "d-flex justify-content-center">
-  <div class="mb-3" style="max-width: 100%;" >
-    <label for="exampleFormControlInput1" class="form-label my-2">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div></div>
-  <div class= "d-flex justify-content-center">
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    <button type="submit" class="btn my-3 btn-primary">Enviar</button>
+        <a name="contacto-1"></a>
+<h2 class="name text-center my-2 #contacto-1">Contáctame</h2>
+<div class="container"></div>
+<div class="d-flex justify-content-center align-items-center ">
+  <div class="d-flex justify-content-center align-items-center">
+    <a class="d-flex justify-content-center align-items-center link icono" href="mailto:dulcermzf@gmail.com"
+    >
+      <i class="fa-solid fa-envelope fa-sm" style="color: #ffffff"></i>
+    </a>
+    <p class="contacto fs-5 pe-5 my-2">katherin_meza@yahoo.com</p>
+  </div>
+  <div class="d-flex justify-content-center align-items-center">
+    <div
+      class="d-flex justify-content-center align-items-center link icono"
+    >
+      <i class="fa-solid fa-phone fa-sm" style="color: #ffffff"></i>
+    </div>
+    <p class="contacto fs-5 my-2">75246177</p>
   </div>
 </div>
-      
+<div class="formulario">
+  <form
+    method="post"
+    class="php-email-form"
+    data-aos="fade-up"
+    data-aos-delay="500"
+  >
+    <div class="row gy-4">
+      <div class="col-md-6">
+        <input
+          type="text"
+          name="name"
+          class="form-control"
+          placeholder="Nombre"
+          required=""
+        />
+      </div>
 
+      <div class="col-md-6">
+        <input
+          type="email"
+          class="form-control"
+          name="email"
+          placeholder="Email"
+          required=""
+        />
+      </div>
 
-        
+      <div class="col-md-12">
+        <input
+          type="text"
+          class="form-control"
+          name="subject"
+          placeholder="Asunto"
+          required=""
+        />
+      </div>
 
+      <div class="col-md-12">
+        <textarea
+          class="form-control"
+          name="message"
+          rows="6"
+          placeholder="Mensaje"
+          required=""
+        ></textarea>
+      </div>
+      <div class="col-md-12 text-center my-4">
+        <button type="submit" class="btn mb-5 btn-primary">Enviar</button>
+      </div>
+    </div>
 
+    
         <!--BOOTSTRAP JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <!--FOOTER-->
-        <footer class="text-center bg-danger-subtle pb-0">
-          <p>© 2024 Todos los derechos reservados.</p>
-          </footer>
+
+      <footer class="text-center bg-danger-subtle">
+      <p>© 2024 Todos los derechos reservados.</p>
+      </footer>
     </body>
 </html>
